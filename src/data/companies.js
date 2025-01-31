@@ -15,6 +15,10 @@ import inet from "../assets/images/inet.png";
 import itag from "../assets/images/itag.png";
 import check00 from "../assets/images/check00.png";
 import niftyict from "../assets/images/niftyict.png";
+import protech from "../assets/images/protech.png";
+import itg from "../assets/images/itg.png";
+import dktelecom from "../assets/images/dktelecom.png";
+import speednet from "../assets/images/speednet.png";
 
 // list of all tech companies in the Gambia
 export const companies = [
@@ -188,26 +192,114 @@ export const companies = [
   },
   {
     id: 13,
-    logo: "",
-    name: "",
-    type: "",
-    service: "",
-    location: "",
-    website: "",
-    email: "",
-    phone: "+220 ",
-    description: " .",
+    logo: itag,
+    name: "ITAG",
+    type: "ICT organization",
+    service:
+      "Advocacy, Training and Networking To promote the development and use of ICT in the Gambia",
+    location: "50 Kairaba Ave. Serrekunda KSMD",
+    website: "https://itag.gm",
+    email: "info@itag.gm",
+    phone: "+220 3984824",
+    description:
+      "The Information Technology of the Gambia (ITAG) was incorporated under the Gambia Companies Act 1955 on the 3rd of August 2004. The organization is operated through its Executive Committee, and Advisory committee in consultation with its membership base. The Organization was solely formed by professionals within the ICT ecosystem of the Gambia and in diaspora whose sole aim was to collaborate, explore and develop the ICT community in the Gambia.",
   },
   {
     id: 14,
-    logo: "",
-    name: "",
-    type: "",
-    service: "",
+    logo: protech,
+    name: "PROTECHNOLOGY",
+    type: "Software company",
+    service:
+      "Mobile App Development, Web App Developmen, Database Development, Software Development and Integration Systems",
+    location: "Brusubi Phase 2 highway, Opposite Speed Petrol Station",
+    website: "https://protechdev.com",
+    email: "kawsujabbi@protechdev.com",
+    phone: "+220 2518185",
+    description:
+      "Protechdev, Your Partner in Innovative Software Solutions. We go beyond conventional software development. We’re committed to partnering with you to harness the power of cutting-edge technology and propel your business forward. With a global reach, we specialize in crafting bespoke software solutions tailored to meet the unique.",
+  },
+
+  {
+    id: 15,
+    logo: netpage,
+    name: "NETPAGE",
+    type: "ISP company",
+    service:
+      "Fiber Optic Network, wireless broadband and other internet services",
+    location: "7th Street East, Off Kairaba Avenue, KMC",
+    website: "https://netpage.info/",
+    email: "info@netpage.info",
+    phone: "+220 437 8181",
+    description:
+      "With unlimited broadband you can stream, browse and download as much as you want – we won’t charge you extra. All of our fibre broadband packages come with unlimited monthly usage. No hidden charges. Netpage can provide very high speed bandwidth using its advanced wireless equipment .",
+  },
+  {
+    id: 16,
+    logo: smartpc,
+    name: "SMART PROFESSIONAL COLLEGE",
+    type: "ICT Training Institute",
+    service:
+      "Entrepreneurship, Computer and Digital Literacy, Career Coaching and Mentorship, Professional and Technical Training, Research and Consultancy",
+    location: "Opposite FIB Building, 46B Kairaba Avenue, Pipeline",
+    website: "https://spc.edu.gm",
+    email: " info@spc.edu.gm",
+    phone: "+220 3903535",
+    description:
+      "The College is established with the aim of bridging the professional and technical education skills gap between the employment industry and the African youths. We maintain a platform that helps us provide customized solutions that align with global education and skills development needs for the youth. We provide absolute educational skills for both job seekers and job creators across several fields of study.",
+  },
+  {
+    id: 17,
+    logo: itg,
+    name: "ITG",
+    type: "Software company",
+    service:
+      "Custom Software Development, Cloud Computing Solutions, Mobile App Development and IT Consulting",
     location: "",
-    website: "",
+    website: "https://itg.gm/",
     email: "",
     phone: "+220 ",
+    description:
+      "Based in Africa, ITG specializes in Custom Software, Cloud Solutions, and Mobile App Development. Get world-class quality without the premium cost. Embarking on a software development journey with Innovative Technology Group is a streamlined experience designed to bring your project to fruition efficiently. We've distilled our engagement process into three major milestones that guide you from the initial consultation to experiencing tangible outcomes.",
+  },
+  {
+    id: 18,
+    logo: smarttech,
+    name: "SMART TECHNOLOGIES",
+    type: "Software company",
+    service:
+      "Certiport Solutions, Co-location & BDS, Consulting Services, Corporate Training, EduTech Solutions and IT Support",
+    location: "46B Kairaba Avenue, Serekunda, The Gambia",
+    website: "https://smt.gm/",
+    email: "info@smt.gm",
+    phone: "+220 359 9992",
+    description:
+      "As a member of the Global Digital Literacy Council, we are a dynamic technology service provider and product company offering a comprehensive suite of solutions. Our areas of expertise encompass consultancy, software development training, web design, hardware sales, networking, systems support, and creative design. Our dedicated experts in technology solutions are committed to enhancing our clients’ productivity, competitiveness, and reliability.",
+  },
+  {
+    id: 19,
+    logo: dktelecom,
+    name: "DK TELECOM LTD",
+    type: "ISP service provider",
+    service:
+      "Internet Service, Cooperate Bandwidth, Web Hosting, Web Hosting, Email Hosting and Cloud Solutions",
+    location: "BRIKAMA SONKO JILENG. Brikama, FL WCR",
+    website: "https://dktelecom.gm",
+    email: "info@dktelecom.gm",
+    phone: "+220 954-4000",
+    description:
+      "Discover a world of seamless connectivity and cutting-edge telecommunications solutions with DK Telecom. From lightning-fast internet connections to comprehensive business solutions, we offer a diverse range of services designed to meet your every need. At DK Telecom, we pride ourselves on delivering exceptional customer service and support, ensuring a seamless experience for every user. With our state-of-the-art infrastructure and dedicated team of professionals, we are your trusted partner for staying connected in today’s digital world..",
+  },
+  {
+    id: 20,
+    logo: speednet,
+    name: "SPEEDNET GAMBIA",
+    type: "ISP service provider",
+    service: "",
+    location:
+      "Westfield, The IC Plaza Building 3rd Floor , Serekunda, The Gambia",
+    website: "",
+    email: "Ocham824@gmail.com",
+    phone: "+220 313 7788",
     description: " .",
   },
 ];

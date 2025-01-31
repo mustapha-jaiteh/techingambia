@@ -25,7 +25,7 @@ import Footer from "./Footer";
 
 const navigation = [
   { name: "Home", to: "/" },
-  { name: "About", to: "/about" },
+  { name: "About Us", to: "/about" },
   { name: "Contact", to: "/contact" },
 ];
 
@@ -52,7 +52,7 @@ function Layout() {
                   />
                 </div>
                 <h5 className=" text-sm text-gray-100 tracking-widest mx-6 font-semibold font-mono">
-                  TECH COMPANIES
+                  TECH IN GAMBIA
                 </h5>
                 <div className="hidden md:block">
                   <div className="ml-10 flex items-baseline space-x-4 text-gray-50 font-mono font-bold">
@@ -68,8 +68,8 @@ function Layout() {
                         className={({ isActive }) =>
                           classNames(
                             isActive
-                              ? "bg-blue-800 text-white"
-                              : "text-gray-300 hover:bg-blue-800 hover:text-white",
+                              ? "bg-blue-600 text-white"
+                              : "text-gray-300 hover:bg-blue-600 hover:text-white",
                             "rounded-md px-3 py-2 text-xl"
                           )
                         }
@@ -111,8 +111,8 @@ function Layout() {
                   className={({ isActive }) =>
                     classNames(
                       isActive
-                        ? "bg-blue-800 text-white"
-                        : "text-gray-300 hover:bg-blue-800 hover:text-white",
+                        ? "bg-blue-600 text-white"
+                        : "text-gray-300 hover:bg-blue-600 hover:text-white",
                       "block rounded-md px-3 py-2 text-xl"
                     )
                   }

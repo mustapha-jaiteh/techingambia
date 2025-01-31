@@ -8,7 +8,7 @@ const SearchBar = ({ query, filterBy, onSearch, onFilter }) => {
         action=""
         className=" flex flex-col lg:flex-row items-center justify-between px-4 lg:px-24 py-6 gap-8"
       >
-        <div className="relative max-w-md mx-auto mt-5 w-full ">
+        <div className="relative max-w-md mx-auto  w-full ">
           <input
             onChange={(e) => onSearch(e.target.value)}
             className="search-input w-[100%] pl-8 lg:pl-12  rounded-md text-slate-950 font-bold relative bg-white shadow h-12 shadow-slate-950 "

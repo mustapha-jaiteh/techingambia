@@ -31,15 +31,17 @@ const Home = () => {
       {/* bg-[url('./images/bg-desktop.jpg')] lg:bg-[url('./images/bg-desktop.jpg')] */}
       <header className="App-header bg-gradient-to-r from-blue-900 to-slate-950 bg-cover bg-center w-full h-[700px] lg:h-[350px] relative  ">
         <div className="  text-gray-100 absolute mx-2 lg:mx-12 my-0 lg:my-4 justify-center items-center text-center  w-auto px-8 py-4   ">
-          <h1 className="text-6xl mb-4 font-bold tracking-wide font-mono place-self-center">
+          <h1 className="text-4xl mb-4 font-bold tracking-wide font-mono place-self-center">
             IT COMPANIES IN <br /> THE GAMBIA
           </h1>
           <p className="mb-4 text-xl font-semibold font-mono">
-            This website aims to reduce time and cost for the general public in
+            Welcome to TECH IN GAMBIA, the ultimate directory for IT companies
+            in The Gambia. Our platform helps users discover and connect with
+            tech companies, including software firms, ISPs, and GSM providers.
+            This paltform aims to reduce time and cost for the general public in
             the Gambia to find the right IT companies to help them with their IT
-            needs. We have listed all the IT companies, from GSM, ISP and
-            Software companies, their various services and solutions for all
-            your technology needs.
+            needs. The list contains IT companies, their various services and
+            solutions for all your technology needs.
           </p>
         </div>
       </header>
