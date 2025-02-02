@@ -294,7 +294,7 @@ export const companies = [
     logo: speednet,
     name: "SPEEDNET GAMBIA",
     type: "ISP service provider",
-    service: "",
+    service: "Internet Service and Cloud Solutions",
     location:
       "Westfield, The IC Plaza Building 3rd Floor , Serekunda, The Gambia",
     website: "",
