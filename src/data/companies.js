@@ -39,13 +39,13 @@ export const companies = [
   {
     id: 2,
     logo: coderoots,
-    name: "CODE ROOTS",
+    name: "CODEROOTS",
     type: "Software company & ICT training",
     service: "Web development services and Community IT programs.",
     location: "Banjul, The Gambia",
     website: "https://coderoots.io",
     email: "hello@coderoots.io",
-    phone: "+44 7896 781252",
+    phone: "+220 3629358",
     description:
       "With a grassroots mindset, we are creating sustainable solutions for digital access and tech education for communities in The Gambia. We are a team of passionate and dedicated individuals who are committed to making a positive impact on the lives of people in the country through Web Development service and community IT skills programmes.",
   },
