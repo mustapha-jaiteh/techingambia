@@ -29,7 +29,7 @@ const Home = () => {
   return (
     <>
       {/* bg-[url('./images/bg-desktop.jpg')] lg:bg-[url('./images/bg-desktop.jpg')] */}
-      <header className="App-header bg-gradient-to-r from-blue-900 to-slate-950 bg-cover bg-center w-full h-[700px] lg:h-[350px] relative  ">
+      <header className="App-header bg-gradient-to-r from-blue-900 to-slate-950 bg-cover bg-center w-full h-[800px] lg:h-[350px] relative  ">
         <div className="  text-gray-100 absolute mx-2 lg:mx-12 my-0 lg:my-4 justify-center items-center text-center  w-auto px-8 py-4   ">
           <h1 className="text-4xl mb-4 font-bold tracking-wide font-mono place-self-center">
             IT COMPANIES IN <br /> THE GAMBIA
