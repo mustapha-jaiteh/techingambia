@@ -151,7 +151,7 @@ export const companies = [
     id: 10,
     logo: inet,
     name: "INET",
-    type: "ISP company",
+    type: "ISP service provider",
     service:
       "stable & reliable internet at affordable prices. With the availability of several plans to select from.",
     location: "136, Kairaba Avenue, The Gambia",
