@@ -11,7 +11,7 @@ import comium from "../assets/images/comium.png";
 import netpage from "../assets/images/netpage.png";
 import smartpc from "../assets/images/smartpc.png";
 import smarttech from "../assets/images/smarttech.png";
-import inet from "../assets/images/inet.png";
+// import inet from "../assets/images/inet.png";
 import itag from "../assets/images/itag.png";
 import check00 from "../assets/images/check00.png";
 import niftyict from "../assets/images/niftyict.png";
@@ -149,7 +149,7 @@ export const companies = [
   },
   {
     id: 10,
-    logo: inet,
+    logo: "",
     name: "INET",
     type: "ISP service provider",
     service:
