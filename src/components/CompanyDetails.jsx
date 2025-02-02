@@ -53,10 +53,16 @@ const CompanyDetails = () => {
           <span className="font-bold text-gray-50">Address:</span>{" "}
           {company.location}
         </p>
-        <p className=" my-2 mx-1 text-blue-400">
+        {/* <p className=" my-2 mx-1 text-blue-400">{company.website}</p> */}
+        <a
+          href={company.website}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="website  text-blue-600 text-3x hover:text-blue-800 font-bold "
+        >
           <span className="font-bold text-blue-50">Website:</span>{" "}
           {company.website}
-        </p>
+        </a>
         <p className=" my-2 mx-1">
           <span className="font-bold text-gray-50">Email:</span> {company.email}
         </p>
@@ -65,7 +71,7 @@ const CompanyDetails = () => {
         </p>
 
         <p className=" my-2 mx-1">
-          <span className="font-bold text-gray-50">Description:</span>{" "}
+          <span className="font-bold text-gray-50">About Us:</span>{" "}
           {company.description}
         </p>
       </div>
