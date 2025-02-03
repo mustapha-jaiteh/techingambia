@@ -154,7 +154,7 @@ export const companies = [
     type: "ISP service provider",
     service:
       "stable & reliable internet at affordable prices. With the availability of several plans to select from.",
-    location: "136, Kairaba Avenue, The Gambia",
+    location: "136, Kairaba Avenue, Serekunda, The Gambia",
     website: "https://insistnet.gm",
     email: "info@insistnet.gm",
     phone: "+220 2400228",
