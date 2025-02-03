@@ -36,7 +36,7 @@ const CompanyList = ({ companies }) => {
                   <img
                     src={company.logo}
                     alt=""
-                    className="img  p-s3 rounded-md h-40 w-40 "
+                    className="img  p-s3 rounded-md h-40 w-52"
                   />
 
                   <h2 className="name font-bold">

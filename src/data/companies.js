@@ -11,7 +11,7 @@ import comium from "../assets/images/comium.png";
 import netpage from "../assets/images/netpage.png";
 import smartpc from "../assets/images/smartpc.png";
 import smarttech from "../assets/images/smarttech.png";
-// import inet from "../assets/images/inet.png";
+import inet from "../assets/images/inet.png";
 import itag from "../assets/images/itag.png";
 import check00 from "../assets/images/check00.png";
 import niftyict from "../assets/images/niftyict.png";
@@ -56,10 +56,10 @@ export const companies = [
     type: "Software company",
     service:
       "Custom Software Development, Web Development, Mobile App Development, Cloud-Based Solutions etc.",
-    location: "46 Kairaba Avenue, The Gambia",
+    location: "76 Kairaba Avenue, The Gambia",
     website: "https://zigtech.net",
-    email: "info@zigtech.net",
-    phone: "+220 7025555",
+    email: "support@zigtech.net",
+    phone: "+220 2600001",
     description:
       "We are a team of experienced software developers dedicated to crafting innovative solutions that help businesses achieve their goals. With expertise in a range of technologies and industries, we work closely with our clients to understand their unique needs and design custom solutions that meet those needs. Whether you need a mobile app, web application, or enterprise software, we have the skills and experience to bring your vision to life.",
   },
@@ -149,7 +149,7 @@ export const companies = [
   },
   {
     id: 10,
-    logo: "",
+    logo: inet,
     name: "INET",
     type: "ISP service provider",
     service:
@@ -300,7 +300,7 @@ export const companies = [
     website: "",
     email: "Ocham824@gmail.com",
     phone: "+220 313 7788",
-    description: " .",
+    description: ".",
   },
 ];
 
