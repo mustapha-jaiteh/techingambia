@@ -11,9 +11,9 @@ import comium from "../assets/images/comium.png";
 import netpage from "../assets/images/netpage.png";
 import smartpc from "../assets/images/smartpc.png";
 import smarttech from "../assets/images/smarttech.png";
-import inet from "../assets/images/inet.png";
+import insistnet from "../assets/images/insistnet.png";
 import itag from "../assets/images/itag.png";
-import check00 from "../assets/images/check00.png";
+// import check00 from "../assets/images/check00.png";
 import niftyict from "../assets/images/niftyict.png";
 import protech from "../assets/images/protech.png";
 import itg from "../assets/images/itg.png";
@@ -149,7 +149,7 @@ export const companies = [
   },
   {
     id: 10,
-    logo: inet,
+    logo: insistnet,
     name: "INET",
     type: "ISP service provider",
     service:
