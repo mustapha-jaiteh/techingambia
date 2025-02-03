@@ -38,7 +38,7 @@ const Home = () => {
             Welcome to TECH IN GAMBIA, the ultimate directory for IT companies
             in The Gambia. Our platform helps users discover and connect with
             tech companies, including software firms, ISPs, and GSM providers.
-            This paltform aims to reduce time and cost for the general public in
+            This platform aims to reduce time and cost for the general public in
             the Gambia to find the right IT companies to help them with their IT
             needs. The list contains IT companies, their various services and
             solutions for all your technology needs.
