@@ -254,7 +254,7 @@ export const companies = [
     type: "Software company",
     service:
       "Custom Software Development, Cloud Computing Solutions, Mobile App Development and IT Consulting",
-    location: "",
+    location: "Kotou",
     website: "https://itg.gm/",
     email: "",
     phone: "+220 ",
@@ -292,15 +292,17 @@ export const companies = [
   {
     id: 20,
     logo: speednet,
-    name: "SPEEDNET GAMBIA",
+    name: "SPEEDNET",
     type: "ISP service provider",
-    service: "Internet Service and Cloud Solutions",
+    service:
+      "Internet Services for Residential Internet and Business Solutions with dedicated bandwidth",
     location:
       "Westfield, The IC Plaza Building 3rd Floor , Serekunda, The Gambia",
-    website: "",
+    website: " ",
     email: "Ocham824@gmail.com",
     phone: "+220 313 7788",
-    description: ".",
+    description:
+      "Speednet is a Gambian internet service provider dedicated to delivering fast, reliable, and affordable connectivity. Since its establishment in 2023, Speednet has been committed to bridging the digital gap by offering high-speed broadband solutions to residential, business, and rural areas. With a focus on innovation and customer satisfaction, Speednet aims to make internet access seamless and accessible, empowering individuals and businesses across The Gambia.",
   },
 ];
 
