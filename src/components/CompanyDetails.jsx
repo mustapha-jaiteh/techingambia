@@ -23,7 +23,7 @@ const CompanyDetails = () => {
         {/* Mobile menu button */}
         <Disclosure>
           <Link to={"/"}>
-            <DisclosureButton className="group relative inline-flex items-center justify-center rounded-md bg-gray-500 p-2 text-gray-200 hover:bg-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 w-8 h-8 lg:w-12 lg:h-12">
+            <DisclosureButton className="group relative inline-flex items-center justify-center rounded-md bg-gray-500 p-2 text-gray-200 hover:bg-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 w-8 h-8 lg:w-12 lg:h-12 break-all">
               <XMarkIcon
                 aria-hidden="true"
                 className=" size-6  group-data-[open]:block"
