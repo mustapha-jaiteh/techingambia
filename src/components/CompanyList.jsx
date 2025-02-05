@@ -30,7 +30,7 @@ const CompanyList = ({ companies }) => {
             {companies.length > 0 ? (
               companies.map((company) => (
                 <div
-                  className="card bg-gray-100 hover:bg-blue-100 flex flex-col m-4  gap-2 shadow-2xl bg-transparent items-center justify-center text-center  rounded-2xl shadow-slate-950 p-2 relative  text-blue-950 "
+                  className="card bg-gray-100 hover:bg-blue-100 flex flex-col m-4  gap-2 shadow-2xl bg-transparent items-center justify-center text-center  rounded-2xl shadow-slate-950 p-2 relative  text-blue-950 break-all"
                   key={company.id}
                 >
                   <img

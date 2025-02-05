@@ -298,9 +298,9 @@ export const companies = [
       "Internet Services for Residential Internet and Business Solutions with dedicated bandwidth",
     location:
       "Westfield, The IC Plaza Building 3rd Floor , Serekunda, The Gambia",
-    website: " ",
+    website: "https://www.facebook.com/share/1Gc3DjJWAZ/?mibextid=wwXIfr",
     email: "Ocham824@gmail.com",
-    phone: "+220 313 7788",
+    phone: "+220 313 7788 / +220 7084699",
     description:
       "Speednet is a Gambian internet service provider dedicated to delivering fast, reliable, and affordable connectivity. Since its establishment in 2023, Speednet has been committed to bridging the digital gap by offering high-speed broadband solutions to residential, business, and rural areas. With a focus on innovation and customer satisfaction, Speednet aims to make internet access seamless and accessible, empowering individuals and businesses across The Gambia.",
   },
