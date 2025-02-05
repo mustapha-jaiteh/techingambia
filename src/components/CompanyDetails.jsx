@@ -18,12 +18,12 @@ const CompanyDetails = () => {
   const company = companies.find((company) => company.id === parseInt(id));
 
   return (
-    <div className="card  bg-gradient-to-r from-blue-950 to-slate-950 m-4 lg:mx-20  gap-2 shadow-2xl bg-transparent  rounded-2xl s p-4  text-gray-300 ">
+    <div className="card  bg-gradient-to-r from-blue-950 to-slate-950 m-4 lg:mx-20  gap-2 shadow-2xl bg-transparent  rounded-2xl s p-4  text-gray-300 break-all">
       <div className="m-2 flex ">
         {/* Mobile menu button */}
         <Disclosure>
           <Link to={"/"}>
-            <DisclosureButton className="group relative inline-flex items-center justify-center rounded-md bg-gray-500 p-2 text-gray-200 hover:bg-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 w-8 h-8 lg:w-12 lg:h-12 break-all">
+            <DisclosureButton className="group relative inline-flex items-center justify-center rounded-md bg-gray-500 p-2 text-gray-200 hover:bg-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 w-8 h-8 lg:w-12 lg:h-12 ">
               <XMarkIcon
                 aria-hidden="true"
                 className=" size-6  group-data-[open]:block"
