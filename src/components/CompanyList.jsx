@@ -30,7 +30,7 @@ const CompanyList = ({ companies }) => {
             {companies.length > 0 ? (
               companies.map((company) => (
                 <div
-                  className="card bg-gray-100 hover:bg-blue-100 flex flex-col m-4  gap-2 shadow-2xl bg-transparent items-center justify-center text-center  rounded-2xl shadow-slate-950 p-2 relative  text-blue-950 break-all"
+                  className="card bg-gray-100 hover:bg-blue-100 flex flex-col m-4  gap-2 shadow-2xl bg-transparent items-center justify-center text-center  rounded-2xl shadow-slate-950 p-2 relative  text-blue-950 "
                   key={company.id}
                 >
                   <img
@@ -52,7 +52,7 @@ const CompanyList = ({ companies }) => {
                     href={company.website}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="website  text-blue-600 text-3x hover:text-blue-800 font-bold "
+                    className="website  text-blue-600 text-3x hover:text-blue-800 font-bold break-all"
                   >
                     {/* <span className=" text-slate-950 font-bold">website:</span>
                     <br /> */}

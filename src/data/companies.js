@@ -310,7 +310,7 @@ export const companies = [
     name: "CHECK",
     type: "Software company ",
     service:
-      "Posting and advertising businesses, services, and products onlinefor free",
+      "Posting and advertising businesses, services, and products online ",
     location: "Yundum, WCR,The Gambia ",
     website: "https://check00.com/ ",
     email: "checkofficial784@gmail.com",

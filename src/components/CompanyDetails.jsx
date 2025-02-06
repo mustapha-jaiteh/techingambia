@@ -18,7 +18,7 @@ const CompanyDetails = () => {
   const company = companies.find((company) => company.id === parseInt(id));
 
   return (
-    <div className="card  bg-gradient-to-r from-blue-950 to-slate-950 m-4 lg:mx-20  gap-2 shadow-2xl bg-transparent  rounded-2xl s p-4  text-gray-300 break-all">
+    <div className="card  bg-gradient-to-r from-blue-950 to-slate-950 m-4 lg:mx-20  gap-2 shadow-2xl bg-transparent  rounded-2xl s p-4  text-gray-300 ">
       <div className="m-2 flex ">
         {/* Mobile menu button */}
         <Disclosure>
@@ -58,12 +58,12 @@ const CompanyDetails = () => {
           href={company.website}
           target="_blank"
           rel="noopener noreferrer"
-          className="website  text-blue-600 text-3x hover:text-blue-800 font-bold "
+          className="website  text-blue-600 text-3x hover:text-blue-800 font-bold break-all"
         >
           <span className="font-bold text-blue-50">Website:</span>{" "}
           {company.website}
         </a>
-        <p className=" my-2 mx-1">
+        <p className=" my-2 mx-1 break-all">
           <span className="font-bold text-gray-50">Email:</span> {company.email}
         </p>
         <p className=" my-2 mx-1">
