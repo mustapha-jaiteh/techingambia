@@ -313,6 +313,7 @@ export const companies = [
       "Posting and advertising businesses, services, and products onlinefor free",
     location: "Yundum, WCR,The Gambia ",
     website: "https://check00.com/ ",
+    email: "checkofficial784@gmail.com",
     phone: "+220 7354544",
     description:
       "We created a website where people can post their businesses, services and products online. Oue platform is created for people to advertise their products and services for free. The platform helps users discover and connect with business owners and service providers, from small businesses to large companies in the country. ",
