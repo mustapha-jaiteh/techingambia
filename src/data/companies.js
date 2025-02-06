@@ -13,7 +13,7 @@ import smartpc from "../assets/images/smartpc.png";
 import smarttech from "../assets/images/smarttech.png";
 import insistnet from "../assets/images/insistnet.png";
 import itag from "../assets/images/itag.png";
-// import check00 from "../assets/images/check00.png";
+import check00 from "../assets/images/check00.png";
 import niftyict from "../assets/images/niftyict.png";
 import protech from "../assets/images/protech.png";
 import itg from "../assets/images/itg.png";
@@ -303,6 +303,19 @@ export const companies = [
     phone: "+220 313 7788 / +220 7084699",
     description:
       "Speednet is a Gambian internet service provider dedicated to delivering fast, reliable, and affordable connectivity. Since its establishment in 2023, Speednet has been committed to bridging the digital gap by offering high-speed broadband solutions to residential, business, and rural areas. With a focus on innovation and customer satisfaction, Speednet aims to make internet access seamless and accessible, empowering individuals and businesses across The Gambia.",
+  },
+  {
+    id: 21,
+    logo: check00,
+    name: "CHECK",
+    type: "Software company ",
+    service:
+      "Posting and advertising businesses, services, and products onlinefor free",
+    location: "Yundum, WCR,The Gambia ",
+    website: "https://check00.com/ ",
+    phone: "+220 7354544",
+    description:
+      "We created a website where people can post their businesses, services and products online. Oue platform is created for people to advertise their products and services for free. The platform helps users discover and connect with business owners and service providers, from small businesses to large companies in the country. ",
   },
 ];
 
