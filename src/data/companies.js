@@ -19,6 +19,7 @@ import protech from "../assets/images/protech.png";
 import itg from "../assets/images/itg.png";
 import dktelecom from "../assets/images/dktelecom.png";
 import speednet from "../assets/images/speednet.png";
+import nanotech from "../assets/images/nanotech.png";
 
 // list of all tech companies in the Gambia
 export const companies = [
@@ -317,6 +318,20 @@ export const companies = [
     phone: "+220 7354544",
     description:
       "We created a website where people can post their businesses, services and products online. Oue platform is created for people to advertise their products and services for free. The platform helps users discover and connect with business owners and service providers, from small businesses to large companies in the country. ",
+  },
+  {
+    id: 22,
+    logo: nanotech,
+    name: "NANOTECH",
+    type: "Software company ",
+    service:
+      "Software development, Web development and hosting, Consulting services and more.",
+    location: "MSJ Building Turntable Adjacent to Africmed Clinic, Brusubi ",
+    website: "https://nanotechgambia.com/ ",
+    email: "info@nanotechgambia.com",
+    phone: "+220 3295822 / +220 7060717",
+    description:
+      "Nanotech is a Gambian-based software development company, that has been around since 2014 and operated by a team of highly experienced Gambian professionals with a deep understanding of the software industry. Committed to serving institutions like yours, we specialize in providing comprehensive ICT solutions, including remittances, accounting, payroll and HR management, inventory management, point-of-sale systems, medical software, and more. ",
   },
 ];
 

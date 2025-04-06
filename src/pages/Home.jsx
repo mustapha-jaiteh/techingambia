@@ -55,10 +55,6 @@ const Home = () => {
             onSearch={handleSearch}
             onFilter={handleFilter}
           />
-          {/* <h1 className="text-6xl font-bold font-mono mb-4 ">Companies</h1>
-          <h2 className=" text-2xl font-bold font-mono ">
-            The list of IT companies in The Gambia
-          </h2> */}
         </div>
         <CompanyList companies={filteredCompanies} />
       </main>
