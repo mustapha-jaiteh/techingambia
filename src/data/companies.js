@@ -20,6 +20,7 @@ import itg from "../assets/images/itg.png";
 import dktelecom from "../assets/images/dktelecom.png";
 import speednet from "../assets/images/speednet.png";
 import nanotech from "../assets/images/nanotech.png";
+import codersclutch from "../assets/images/codersclutch.png";
 
 // list of all tech companies in the Gambia
 export const companies = [
@@ -332,6 +333,20 @@ export const companies = [
     phone: "+220 3295822 / +220 7060717",
     description:
       "Nanotech is a Gambian-based software development company, that has been around since 2014 and operated by a team of highly experienced Gambian professionals with a deep understanding of the software industry. Committed to serving institutions like yours, we specialize in providing comprehensive ICT solutions, including remittances, accounting, payroll and HR management, inventory management, point-of-sale systems, medical software, and more. ",
+  },
+  {
+    id: 23,
+    logo: codersclutch,
+    name: "CODERS CLUTCH",
+    type: "Software company ",
+    service:
+      "We Deliver Quality I.T Consultancy and Engineering Solutions that Scale Your Business (Websites, Mobile Apps, Custom Softwares etc.).",
+    location: "MSJ Building Turntable Adjacent to Africmed Clinic, Brusubi ",
+    website: "https://codersclutch.com/ ",
+    email: "info@codersclutch.com",
+    phone: "+220 5071723 / +233 533715072",
+    description:
+      "Coders Clutch acts as a technological partner for established companies and startups; handling software development, cloud computing & cyber security, business automation, digital forensics, etc. Our expertise aligns seamlessly with your goals, ensuring excellence in the realms of robotics, Agro technologies, biomedical engineering, blockchain & crypto technology. ",
   },
 ];
 
