@@ -46,7 +46,7 @@ const Home = () => {
         </div>
       </header>
       {/* main content */}
-      <main className="App-content bg-gray-100 text-slate-950 max-w-6xl  ">
+      <main className="App-content bg-gray-100 text-slate-950   ">
         <div className="w-full h-40 lg:h-32 bg-gradient-to-r from-blue-950 to-slate-950 py-4 "></div>
         <div className="py-2 gap-2 -mt-32 lg:-mt-24 z-10 bg-gray-100 my-4 mx-8 rounded-t-xl items-center justify-center text-center ">
           <SearchBar
